@@ -5,9 +5,9 @@
   --white: #ffffff;
   --black: #000000;
   --gray: #808080;
+  --silver: #c0c0c0;
 
   /* Font Size */
-  --fsh1: ;
 
   /* Shadow */
   --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
@@ -246,7 +246,7 @@ body {
   bottom: 0;
   position: absolute;
   width: 1px;
-  background-color: var(--white);
+  background-color: var(--silver);
   left: 50%;
 }
 
@@ -268,7 +268,7 @@ body {
 .timeline li .timeline-image {
   width: 160px;
   height: 160px;
-  background-color: var(--white);
+  background-color: whitesmoke;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -281,11 +281,11 @@ body {
 .timeline li .timeline-panel {
   width: 40%;
   float: left;
-  border: 1px solid var(--white);
+  border: 1px solid var(--silver);
   padding: 2rem;
   position: relative;
   border-radius: 8px;
-  background-color: var(--white);
+  background-color: whitesmoke;
 }
 
 .timeline li .timeline-panel::before {
@@ -293,8 +293,8 @@ body {
   display: inline-block;
   position: absolute;
   border-top: 15px solid transparent;
-  border-left: 15px solid var(--white);
-  border-right: 0 solid var(--white);
+  border-left: 15px solid var(--silver);
+  border-right: 0 solid var(--silver);
   border-bottom: 15px solid transparent;
   top: 80px;
   right: -15px;
@@ -305,8 +305,8 @@ body {
   position: absolute;
   display: inline-block;
   border-top: 14px solid transparent;
-  border-left: 14px solid var(--white);
-  border-right: 0 solid var(--white);
+  border-left: 14px solid var(--silver);
+  border-right: 0 solid whitesmoke;
   border-bottom: 14px solid transparent;
   top: 81px;
   right: -13px;
