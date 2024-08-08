@@ -102,7 +102,7 @@ body {
 
 .video-animasi {
   width: 100vw;
-  height: 926px;
+  height: 100vh;
   object-fit: cover;
 }
 
