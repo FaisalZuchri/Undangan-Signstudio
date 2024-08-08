@@ -100,6 +100,11 @@ body {
   text-transform: uppercase;
 }
 
+.video-animasi {
+  width: 100vw;
+  height: 100vh;
+}
+
 .home {
   background-size: cover;
   min-height: 100vh;
